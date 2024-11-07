@@ -71,7 +71,7 @@ export const Newsletter = ({ isOpen, onOpenChange }) => {
         </ModalContent>
       </Modal>
       {!isOpen ? (
-        <Modal isOpen={isNoticeModal} onOpenChange={setNoticeModal}>
+        <Modal isOpen={isNoticeModal} onOpenChange={setNoticeModal}  placement="top">
           <ModalContent>
             {(onClose) => (
               <>

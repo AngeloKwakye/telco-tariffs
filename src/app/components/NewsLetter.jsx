@@ -39,7 +39,7 @@ export const Newsletter = ({ isOpen, onOpenChange }) => {
       <Modal
         isOpen={isOpen}
         onOpenChange={onOpenChange}
-        placement="top-center"
+        placement="top"
         isDismissable={false}
       >
         <ModalContent>

@@ -72,7 +72,6 @@ export const Telco = () => {
       });
 
       setTimeout(() => {
-        setPopoverOpen(false);
         setNewsletterOpen(true);
       }, 5000);
     }
